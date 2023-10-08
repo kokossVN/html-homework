@@ -9,6 +9,12 @@
 		h1 {
 			font-size: 15px;
 			text-align: center;
+			padding: 15px;
+		}
+		button {
+			margin-top: 20px;
+			display: block;
+			margin: auto;
 		}
 
 		form {
@@ -25,55 +31,95 @@
 		table td:last-child {
 			width: 60%;
 		}
+		tr td:last-child {
+			padding-right: 50px;
+		}
+		input {
+			width: 100%;
+		}
+		textarea {
+			resize: none;
+		}
+		.radio {
+			width: initial;
+		}
 	</style>
 </head>
 <body>
+	<h1>Bai 5.1</h1>
 	<form>
 		<h1>Đăng ký thông tin</h1>
 		<table>
 			<tr>
-				<td> Hello world</td>
+				<td>Họ và tên</td>
 				<td>
 					<input type="text">
 				</td>
 			</tr>
 			<tr>
-				<td> name</td>
-				<td> name</td>
+				<td> Địa chỉ</td>
+				<td>
+					<input type="text">
+				</td>
 			</tr>
 			<tr>
-				<td> name</td>
-				<td> name</td>
+				<td> Điện thoại</td>
+				<td> 
+					<input type="text">
+				</td>
 			</tr>
 			<tr>
-				<td> name</td>
-				<td> name</td>
+				<td> Giới tính</td>
+				<td> 
+					<input type="radio" name="gioi-tinh" class="radio">
+					<label>Nam</label>
+					<input type="radio" name="gioi-tinh" class="radio">
+					<label>Nữ</label>
+				</td>
 			</tr>
 			<tr>
-				<td> name</td>
-				<td> name</td>
+				<td> Tên tài khoản</td>
+				<td> 
+					<input type="text">
+				</td>
 			</tr>
 			<tr>
-				<td> name</td>
-				<td> name</td>
+				<td> Mật Khẩu</td>
+				<td> 
+					<input type="password">
+				</td>
 			</tr>
 			<tr>
-				<td> name</td>
-				<td> name</td>
+				<td> Nhập lại mật khẩu</td>
+				<td> 
+					<input type="password">
+				</td>
 			</tr>
 			<tr>
-				<td> name</td>
-				<td> name</td>
+				<td> Ghi chú thêm</td>
+				<td> 
+					<textarea rows="3" cols="20"></textarea>
+				</td>
 			</tr>
 			<tr>
-				<td> name</td>
-				<td> name</td>
+				<td> Ảnh Avarta</td>
+				<td> 
+					<input type="file" value="lamo" id="duyet">
+				</td>
 			</tr>
 			<tr>
-				<td> name</td>
-				<td> name</td>
+				<td> Sở thích</td>
+				<td> 
+					<input type="checkbox" id="#fav1" class="radio">
+					<label> Thể thao</label><br>
+					<input type="checkbox" id="#fav2" class="radio">
+					<label> Âm nhạc</label><br>
+					<input type="checkbox" id="#fav3" class="radio">
+					<label> Game</label><br>
+				</td>
 			</tr>
 		</table>
+		<button> Đồng ý</button>
 	</form>
 	
 </body>

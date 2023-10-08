@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset=UTF-8>
+	<meta name=viewport content=width=device-width, initial-scale=1.0>
+	<title>bai5_5</title>
+	
+	<link rel="stylesheet" href="default.css">
+	<style>
+		.main {
+			width: 80%;
+			border: 1px solid;
+			margin: auto;
+		}
+		.logo-main {
+			background: url("./assets/logo_bg.gif");
+			display: flex;
+			justify-content: space-between;
+		}
+		.logo-main * {
+			margin: 0;
+			float: left;
+		}
+		hr {
+			background-color: red;
+			height: 2px;
+			width: 60%;
+			border-radius: 5px;
+		}
+		table {
+			margin: auto;
+			width: 80%;
+		}
+		tr td:first-child {
+			text-align: right;
+		}
+		tr td:last-child {
+			width: 70%;
+		}
+		textarea {
+			width: 70%;
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+	<h1>bai5.5</h1>
+	<div class="main">
+		<div class="logo-main">
+			<div class="left">
+				<img src="assets/lachong.gif">
+			</div>
+			<div class="right">
+				<img src="assets/Flash.gif">
+				<img src="assets/dreamweaver.gif">
+				<img src="assets/adobe.gif">
+			</div>
+		</div>
+		<hr>
+			<h1>Phiều đăng ký</h1>
+			<form>
+				<table>
+					<tr>
+						<td>Họ và tên:</td>
+						<td>
+							<input type="text" style="width: 60%">
+							<sub>(*)</sub>
+						</td>
+					</tr>
+					<tr>
+						<td>Địa chỉ:</td>
+						<td>
+							<input type="text" style="width: 80%">
+						</td>
+					</tr>
+					<tr>
+						<td>Email:</td>
+						<td>
+							<input type="email" style="width: 60%">
+							<sub>(*)</sub>
+						</td>
+					</tr>
+					<tr>
+						<td>Giới tính:</td>
+						<td>
+							<input type="radio" name="gioitinh" id="nu">
+							<label> Nam</label>
+							<input type="radio" name="gioitinh" id="nam">
+							<label> Nu</label>
+						</td>
+					</tr>
+					<tr>
+						<td>Tuổi:</td>
+						<td>
+							<input type="number" min="1" max="101">
+							<sub>(*)</sub>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top">Sở thích:</td>
+						<td>
+							<input type="checkbox" name="fav1">
+							<label>Thể thao</label><br>
+							<input type="checkbox" name="fav2">
+							<label>Văn học</label><br>
+							<input type="checkbox" name="fav3">
+							<label>Công nghệ thông tin</label><br>
+							<input type="checkbox" name="fav4">
+							<label>Lịch Sử</label><br>
+							<input type="checkbox" name="fav5">
+							<label>Game</label><br>
+							<input type="checkbox" name="fav6" hidden>
+							<label hidden>Nuôi cú or Just Monika,</label>
+							<input type="checkbox" name="fav7" hidden checked>
+							<label hidden>Arch Linux</label>
+						</td>
+					</tr>
+					<tr>
+						<td>Chuyên ngành:</td>
+						<td>
+							<select>
+								<option>Công nghệ Web</option>
+								<option>Công nghệ dùng đồ chùa</option>
+								<option>Công nghệ thông tin</option>
+								<option>Ngủ nướng</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Gửi hình:</td>
+						<td>
+							<input type="file">
+						</td>
+					</tr>
+					<tr>
+						<td>Yêu cầu:</td>
+						<td>
+							<textarea></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<button>Gửi thông tin</button>
+							<input type="reset" value="Nhập Lại">
+						</td>
+					</tr>
+				</table>
+			</form>
+	</div>
+</body>
+</html>

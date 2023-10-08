@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset=UTF-8>
+	<meta name=viewport content=width=device-width, initial-scale=1.0>
+	<title>bai5_3</title>
+	
+	<link rel="stylesheet" href="default.css">
+	<style>
+	h1 {
+		text-align: center;
+	}
+	table {
+		width: 70%;
+		margin: auto;
+		background-color: #E0F9D9;
+		border-collapse: collapse;
+	}
+	table tr > * {
+		border: 1px solid;
+	}
+	td:last-child {
+		width: 65%;
+	}
+	td #hovaten,#diachi {
+		width: 80%;
+	} 
+	</style>
+</head>
+<body>
+	<h1>Phiêu đăng ký tham gia chương trình khuyến mãi</h1>
+	<table>
+		<tr>
+			<td>Họ và tên</td>
+			<td>
+				<input type="text" id="hovaten">
+			</td>
+		</tr>
+		<tr>
+			<td>Địa chỉ</td>
+			<td>
+				<input type="text" id="diachi">
+			</td>
+		</tr>
+		<tr>
+			<td>Điện thoại</td>
+			<td>
+				<input type="tel" id="sodienthoai">
+			</td>
+		</tr>
+		<tr>
+			<td>Giới tính</td>
+			<td>
+				<input type="radio" name="gioitinh">
+				<label> Nam</label>
+				<input type="radio" name="gioitinh">
+				<label> Nữ</label>
+			</td>
+		</tr>
+		<tr>
+			<td>Nghề nghiệp</td>
+			<td>
+				<select>
+					<option>Giáo viên</option>
+					<option>Lập trình viên</option>
+					<option>Nhà vật lý học</option>
+					<option>Họa sĩ</option>
+					<option>Ca sĩ</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Chọn sản phẩm</td>
+			<td>
+				<select size="4">
+					<option> Kém đánh răng</option>
+					<option>Bột giặt</option>
+					<option>Dầu gội</option>
+					<option>Sữa tắm</option>
+					<option>GTX4080</option>
+					<option>I9-13400K</option>
+					<option>SSD 1TB</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>số người dự kiến tham gia</td>
+			<td>
+				<input>
+			</td>
+		</tr>
+		<tr>
+			<th colspan="2">
+				<button>Đồng ý</button>
+			</th>
+		</tr>
+	</table>
+</body>
+</html>

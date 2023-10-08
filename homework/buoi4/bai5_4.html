@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset=UTF-8>
+	<meta name=viewport content=width=device-width, initial-scale=1.0>
+	<title>bai5_4</title>
+	
+	<link rel="stylesheet" href="default.css">
+	<style>
+		table {
+			width: 80%;
+			margin: auto;
+			background-color: #FFC;
+		}
+		tr td:last-child {
+			width: 70%;
+		}
+
+		fieldset {
+			width: 70%;
+			padding: 20px 40px;
+			margin: auto;
+		}
+		textarea {
+			resize: none;
+			width: 70%;
+			height: 100%;
+		}
+		.text-in {
+		width: 60%;
+		}
+	</style>
+</head>
+<body>
+	<h1>Bài 5.4</h1>
+	<h1> Đăng ký du lịch</h1>
+	<form>
+		<table border="1">
+			<tr>
+				<td>Họ và tên</td>
+				<td>
+					<input type="text" id="hovaten" class="text-in">
+				</td>
+			</tr>
+			<tr>
+				<td>Địa chỉ</td>
+				<td>
+					<input type="text" id="diachi" class="text-in">
+				</td>
+			</tr>
+			<tr>
+				<td>Điện thoại</td>
+				<td>
+					<input type="text" id="sdt">
+				</td>
+			</tr>
+			<tr>
+				<td>Khách du lịch</td>
+				<td>
+					<input type="checkbox">
+					<label>Việt nam</label>
+					<input type="checkbox">
+					<label> Nước Ngoài</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Chọn tour</td>
+				<td>
+					<select>
+					<option> Hà Nội - Hạ Long - Sapa</option>
+					<option> Ngã tư sở - Cầu vĩnh tuy + 5PM</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Phương tiện</td>
+				<td>
+					<input type="radio" name="driver1">
+					<label>Xe máy</label>
+					<input type="radio" name="driver1">
+					<label> Xe ô tô</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="field">
+					<fieldset>
+						<legend>
+							<i>
+								Số lượng đoàn khách
+							</i>
+						</legend>
+						<label>Người lớn</label>
+						<input type="text">
+						<label>Trẻ em</label>
+						<input type="text">
+					</fieldset>
+				</td>
+			</tr>
+			<tr>
+				<td>ghi chú thêm</td>
+				<td>
+					<textarea></textarea>
+				</td>
+			</tr>
+			<tr>
+				<th colspan="2">
+					<button> Đồng ý</button>
+				</th>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

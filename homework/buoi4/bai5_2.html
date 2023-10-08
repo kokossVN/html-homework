@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset=UTF-8>
+	<meta name=viewport content=width=device-width, initial-scale=1.0>
+	<title>bai5_2</title>
+	<link rel="stylesheet" href="default.css">
+	<style>
+		form {
+			width: 80%;
+		}
+		table {
+			width: 100%;
+		}
+		tr td:last-child {
+			width: 70%;
+		}
+		th,td {
+			padding: 5px;
+		}
+		th {
+			background-color: #FC6;
+		}
+	</style>
+</head>
+<body>
+	<h1> Bài 5.2</h1>
+	<form>
+		<table>
+			<tr>
+				<th colspan="2" align="left">Thông tin đăng nhập</th>
+			</tr>
+			<tr>
+				<td>Chọn tên đăng nhập</td>
+				<td>
+					<input type="text" id="uname">
+					<label >vd:kokoss</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Mật khẩu</td>
+				<td>
+					<input type="text" ip="upass">
+					<label>(ít nhất 6 ký tự)</label>
+				</td>
+			</tr>
+			<tr>
+				<td>nhập lại mật khẩu</td>
+				<td>
+					<input type="text" ip="upass">
+				</td>
+			</tr>
+			<tr>
+				<td>Avater (nếu có)</td>
+				<td>
+					<input type="file">
+					<label> (ảnh gif hoặc jpg)</label>
+				</td>
+			</tr>
+			<tr>
+				<th colspan="2" align="left">Thông tin cá nhân</th>
+			</tr>
+			<tr>
+				<td>Họ và tên</td>
+				<td>
+					<input type="text" id="hovaten">
+				</td>
+			</tr>
+			<tr>
+				<td>Địa chỉ email</td>
+				<td>
+					<input type="email" id="email">
+				</td>
+			</tr>
+			<tr>
+				<td>Giới tính</td>
+				<td>
+					<input type="radio" name="gioitinh">
+					<label> Nam</label>
+					<input type="radio" name="gioitinh">
+					<label> Nữ</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Ngày sinh</td>
+				<td>
+					<label> Ngày </label>
+					<input type="number" min="1" max="31">
+					<label> Tháng </label>
+					<input type="number" min="1" max="12">
+					<label> Năm </label>
+					<input type="number" min="1940" max="2023">
+				</td>
+			</tr>
+			<tr>
+				<td>Nơi ở</td>
+				<td>
+					<select>
+						<option value="--"> Chọn tỉnh</option>
+						<option value="mb01"> Hà Nội</option>
+						<option value="mb02"> Hà Nam</option>
+						<option value="mb03"> Hà Tĩnh</option>
+						<option value="mb04"> Hà Đông</option>
+						<option value="mt00"> Đà nẵng</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
