@@ -1,0 +1,32 @@
+
+.right-main {
+	background-color: #ca9b33;
+}
+
+.right-main > div {
+	display: flex;
+	padding: 30px 10px;
+
+}
+
+.right-main div img {
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
+
+.right-main div p {
+	font-weight: bold;
+}
+
+
+.right-main div span {
+	font-size: 40px;
+}
+
+.left-content {
+	width: 50%;
+}
+.right-content  {
+	width: 50%;
+}

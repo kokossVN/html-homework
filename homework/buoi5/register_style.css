@@ -1,0 +1,39 @@
+
+.right-main {
+	background-color: #ca9b33 ;
+}
+
+
+
+.right-main h1 {
+	font-size: 15px;
+	text-align: center;
+	padding: 15px;
+}
+.right-main button {
+	margin-top: 20px;
+	display: block;
+	margin: auto;
+}
+
+.right-main table {
+	width: 100%;
+}
+.right-main table td:first-child {
+	width: 40%;
+}
+.right-main table td:last-child {
+	width: 60%;
+}
+.right-main tr td:last-child {
+	padding-right: 50px;
+}
+.right-main input {
+	width: 100%;
+}
+.right-main textarea {
+	resize: none;
+}
+.right-main .radio {
+	width: initial;
+}

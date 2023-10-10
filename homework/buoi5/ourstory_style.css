@@ -1,0 +1,28 @@
+
+.main {
+	height: 1200px;
+}
+.right-main {
+	display: flex;
+	flex-direction: row;
+}
+
+.right-main h1 {
+	color: #8b8529;
+}
+
+.right-main .left {
+	background-color: #CC9;
+	padding: 20px 10px;
+	width: 80%;
+	flex-grow: 1;
+}
+.right-main .right {
+	background-color: #996;
+	width: 20%;
+	height: 100%;
+}
+
+.imga, .imgb {
+	display: none;
+}
