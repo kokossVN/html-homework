@@ -1,0 +1,19 @@
+
+
+
+.hinh {
+	background: url("../assets/GioiThieu_Hinh.gif") no-repeat;
+	background-size: cover;
+	width: 100% ;
+	height: 128px;
+}
+
+.hinh:hover {
+	background-image: url("../assets/GioiThieu_Hinh_hover.gif");
+}
+
+.right-main {
+	padding: 10px 8px;
+}
+
+

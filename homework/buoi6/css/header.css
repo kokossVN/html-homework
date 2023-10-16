@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	width: 800px;
+}
+
+footer {
+	background-color: #1f3a69;
+	padding: 10px 0;
+}
+
+footer p {
+	text-align: center;
+	color: #fff;
+}
+
+.menu {
+	list-style-type: none;
+	display: flex;
+	background-color: #1f3a69;
+}
+
+
+
+.image {
+	display: inline-block;
+	height: 50px;
+}
+
+
+#logo {
+	width: 251px ;
+}
+
+#logo::after {
+	content: url("../assets/Logo.gif");
+}
+
+#gioithieu {
+	width: 135px;
+}
+
+#gioithieu::before {
+	content: url("../assets/Nut_GioiThieu.gif");
+}
+
+#gioithieu:hover::before {
+	content: url("../assets/Nut_GioiThieu_hover.gif");
+}
+
+#lienhe {
+	width: 71px;
+}
+
+#lienhe::before {
+	content: url("../assets/Nut_LienHe.gif");
+}
+
+#lienhe:hover::before {
+	content: url("../assets/Nut_LienHe_hover.gif");
+}
+
+#thuongmai {
+	width: 94px;
+}
+#thuongmai::before {
+	content: url("../assets/Nut_ThuongMai.gif");
+}
+#thuongmai:hover::before {
+	content: url("../assets/Nut_ThuongMai_hover.gif");
+}
+
+#dichvu {
+	width: 71px;
+}
+#dichvu::before {
+	content: url("../assets/Nut_DichVu.gif");
+}
+#dichvu:hover::before {
+	content: url("../assets/Nut_DichVu_hover.gif");
+}
+#dautu {
+	width: 66px;
+}
+#dautu::before {
+	content: url("../assets/Nut_DauTu.gif");
+}
+#dautu:hover::before {
+	content: url("../assets/Nut_DauTu_hover.gif");
+}
+#dulich {
+	width: 90px;
+}
+#dulich::before {
+	content: url("../assets/Nut_DuLich.gif");
+}
+#dulich:hover::before {
+	content: url("../assets/Nut_DuLich_hover.gif");
+}
+	
+.main {
+	height: 600px;
+	display: flex;
+}
+
+.left-main {
+	width: 30%;
+	height: 100%;
+	background-color: #6897cb;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.ngon-ngu {
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+	width: 100%;
+	height: 18px;
+	margin-bottom: 5px;
+}
+
+#lang-en {
+	width: 64px;
+}
+
+#lang-en::before {
+	content: url("../assets/english.gif");
+}
+
+#lang-en:hover::before {
+	content: url("../assets/english_hover.gif");
+}
+
+#lang-vi {
+	width: 77px;
+}
+
+#lang-vi::before {
+	content: url("../assets/tiengviet.gif");
+}
+
+
+#lang-vi:hover::before {
+	content: url("../assets/tiengviet_hover.gif");
+}
+
