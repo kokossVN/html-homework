@@ -6,6 +6,24 @@
 
 .right-main table {
 	margin: auto;
-	background-color: cyan;
 	width: 80%;
+}
+
+
+
+#name , #comp {
+	width: 65%;
+}
+
+#adr {
+	width: 80%;
+}
+
+#email {
+	width: 60%;
+}
+
+textarea {
+	width: 85%;
+	height: 50px;
 }

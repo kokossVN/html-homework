@@ -21,7 +21,7 @@
 					<a href="lienhe.html" id="lienhe" class="image"></a>
 				</li>
 				<li>
-					<a href="#" id="thuongmai" class="image"></a>
+					<a href="thuongmai.html" id="thuongmai" class="image"></a>
 				</li>
 				<li>
 					<a href="#" id="dichvu" class="image"></a>
@@ -48,31 +48,37 @@
 				<table>
 					<tr>
 						<td>Họ và tên:</td>
-						<td><input type="text" id="value"></td>
+						<td><input type="text" id="name" required><label>(*)</label></td>
 					</tr>
 					<tr>
 						<td>Công ty:</td>
-						<td><input type="text" id="value"></td>
+						<td><input type="text" id="comp"></td>
 					</tr>
 					<tr>
 						<td>Địa chỉ</td>
-						<td><input type="text" id="value"></td>
+						<td><input type="text" id="adr"></td>
 					</tr>
 					<tr>
 						<td>Điện thoại</td>
-						<td><input type="text" id="value"></td>
+						<td><input type="text" id="phone" required><label>(*)</label></td>
 					</tr>
 					<tr>
 						<td>Fax</td>
-						<td><input type="text" id="value"></td>
+						<td><input type="text" id="fax"></td>
 					</tr>
 					<tr>
 						<td>Email</td>
-						<td><input type="text" id="value"></td>
+						<td><input type="text" id="email" required><label>(*)</label></td>
 					</tr>
 					<tr>
 						<td>Nội dung</td>
 						<td><textarea></textarea></td>
+					</tr>
+					<tr>
+						<th colspan="2">
+							<button type="submit">Gửi thông tin</button>
+							<button type="reset">Điền lại</button>
+						</th>
 					</tr>
 				</table>
 			</form>
