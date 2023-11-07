@@ -1,0 +1,45 @@
+.center {
+	padding: 0 15px;
+	height: 600px;
+}
+
+.opt {
+	width: 100%;
+	border-bottom: 1px dotted black;
+}
+
+.opt a {
+	text-decoration: none;
+	color: #408987;
+	padding: 0 5px;
+}
+
+.opt a:first-child {
+	border-right: 1px dashed #408987;
+}
+
+.banner {
+	margin: 20px 0;
+}
+
+
+.c2-r3 {
+	padding: 15px 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px 5px;
+}
+
+.c2-r3 .box {
+	width: calc( ( 100% - 5px * 3) / 3);
+}
+
+.box a {
+	display: block;
+	margin-bottom: 5px;
+}
+
+
+.box img {
+	float: left;
+}

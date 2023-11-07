@@ -1,0 +1,44 @@
+.center {
+	padding: 0 15px;
+}
+
+.opt {
+	width: 100%;
+	border-bottom: 1px dotted black;
+}
+
+.opt a {
+	text-decoration: none;
+	color: #408987;
+	padding: 0 5px;
+}
+
+.opt a:first-child {
+	border-right: 1px dashed #408987;
+}
+
+.banner {
+	margin: 20px 0;
+}
+
+.r2 {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px 0 ;
+}
+
+.box {
+	width: 50%;
+	display: flex;
+	gap: 10px;
+	align-items: flex-end;
+}
+.box a {
+	text-decoration: none;
+	color: #408987;
+}
+
+.hidden {
+	visibility: hidden;
+}
+

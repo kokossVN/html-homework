@@ -20,12 +20,12 @@
 					</div>
 				</header>
 				<nav>
-					<a href="#"> Trang chủ</a>
+					<a href="index.html"> Trang chủ</a>
 					<a href="#"> Giới thiệu</a>
 					<a href="#"> Tin thức</a>
 					<a href="#"> Dịch vụ</a>
 					<a href="#"> Khách hàng</a>
-					<a href="#"> Liên hệ</a>
+					<a href="register.html"> Liên hệ</a>
 				</nav>
 				<div class="main">
 					<div class="left-nav">
@@ -77,48 +77,116 @@
 					</div>
 
 					<div class="center">
-						<h3>Đăng ký</h3>
+						<h3>Đăng ký:</h3>
 						<form>
 						<p class="header">Thông tin cần nhập</p>
 						<div class="line">
-							<label>name</label>
+							<label>Tên tài khoản </label>
 							<div>
 								<input type="text" id="username">
-								<p><em>Xin mời bạn nhập tài khoản muốn sử dụng trên diễn đàn</em></p>
+								<p><em>
+									Xin mời bạn nhập tài khoản muốn sử dụng trên diễn đàn
+								</em></p>
 							</div>
 						</div>
 						<div class="line">
-							<label>name</label>
+							<label>Mật khẩu</label>
 							<div>
-								<input type="text" id="username">
+								<input type="password" id="passwd">
 							</div>
 						</div>
 						<div class="line">
-							<label>name</label>
+							<label>Nhập lại mật khẩu</label>
 							<div>
-								<input type="text" id="username">
-								<p><em>Xin mời bạn nhập tài khoản muốn sử dụng trên diễn đàn</em></p>
+								<input type="password" id="re-passwd">
+								<p><em>Chú ý: Mật khẩu phải có chữ HOA và chữ thường</em></p>
 							</div>
 						</div>
 						<div class="line">
-							<label>name</label>
+							<label>Địa chỉ Email</label>
 							<div>
-								<input type="text" id="username">
+								<input type="email" id="email">
 							</div>
 						</div>
 						<div class="line">
-							<label>name</label>
+							<label>Nhập lại Email</label>
 							<div>
-								<input type="text" id="username">
-								<p><em>Xin mời bạn nhập tài khoản muốn sử dụng trên diễn đàn</em></p>
+								<input type="email" id="re-email">
+								<p><em>Xin mời nhập lại email của bạn</em></p>
 							</div>
 						</div>
 						<div class="line">
-							<label>name</label>
+							<label>Câu hỏi ngấu nhiên</label>
 							<div>
-								<p><em>Xin mời bạn nhập tài khoản muốn sử dụng trên diễn đàn</em></p>
-								<input type="text" id="username">
+								<p><em>Bạn sinh ra ở đâu ?</em></p>
+								<input type="email" id="aws">
 							</div>
+						</div>
+
+						<p class="header">Thông tin thêm</p>
+						<div class="line">
+							<label>Người giới thiệu</label>
+							<div>
+								<input type="text" id="invited-user">
+								<p><em>
+									Nếu bạn được giới thiệu bởi thành viên trong diễn đàn,
+									<br> xin hãy nhập tài khoản thành viên đó vào đây
+								</em></p>
+							</div>
+						</div>
+						<div class="line">
+							<label>Múi giờ</label>
+							<div>
+								<select>
+									<option>Múi giờ +7</option>
+									<option>Múi giờ +8</option>
+									<option>Múi giờ +9</option>
+									<option>Múi giờ +10</option>
+								</select>
+							</div>
+						</div>
+						<div class="line">
+							<label>Nhận email</label>
+							<div>
+								<div>
+									<input type="checkbox" id="email-from-su" checked>
+									<label>Nhận Email từ ban quản trị </label>
+								</div>
+								<div>
+									<input type="checkbox" id="email-from-u">
+									<label>Nhận Email từ thành viên khác</label>
+								</div>
+								<p><em>
+									Thỉnh thoảng ban quan trị có những thông báo
+									tới các thành viên. Hãy chọn nhận email từ quan quản trị
+									để nhận dược thông tin mới một cách nhanh nhất
+								</em></p>
+							</div>
+						</div>
+						<p class="header">Nội dung - quy định</p>
+						<textarea readonly>
+Forum Rules
+
+Registration to this forum is free! We do insist that you abide by the rules and policies detailed below. If you agree to the terms, please check the 'I agree' checkbox and press the 'Complete Registration' button below. If you would like to cancel the registration, click here to return to the forums index.
+
+Quy ước Diễn đàn 
+Chúng tôi không bắt buộc bạn phải đăng ký thành viên nếu chỉ tham quan diễn đàn (Chỉ đọc các bài viết trên diễn đàn ).
+Trước khi đăng ký tất cả đều phải đồng ý với những quy ước sau:
+
+Tất cả bài gởi đều phải viết bằng tiếng Việt có dấu hoặc không dấu .
+Không được bàn về chuyện chính trị, tôn giáo hay những đề tài dễ gây hiềm khích.
+Không được kỳ thị chủng tộc, giới tính, nơi cư ngụ hay tuổi tác.
+Xin hãy cư xử hoà nhã với nhau! Chúng tôi sẽ không chấp nhận bất cứ hình thức công kích, mạ lị nào nhắm vào một cá nhân hay một đoàn thể.
+Không được gởi bài hoặc hình ảnh có nội dung thô tục, khiêu dâm.
+Nếu vi phạm chúng tôi sẽ tước quyền lợi thành viên mà không cần phải báo trước..
+						</textarea>
+						<div>
+							<input type="checkbox" id="confirm">
+							<label>Tôi đã đọc và đồng ý với các điều khoản của diễn đàn</label>
+						</div>
+						<div class="btns">
+							<button type="submit">Hoàn tất đăng ký</button>
+							<button type="reset">Nhập lại</button>
 						</div>
 						</form>
 
