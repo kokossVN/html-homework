@@ -1,0 +1,21 @@
+.center .banner {
+	display: flex;
+	width: 100%;
+}
+
+.center .banner img {
+	width: calc(100% / 3);
+}
+
+
+article {
+	display: flex;
+	padding: 10px;
+	gap: 20px;
+}
+
+article .text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}

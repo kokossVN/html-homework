@@ -1,0 +1,17 @@
+
+.center {
+	padding: 15px 10px;
+}
+
+.line {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+.line label {
+	flex-grow: 1;
+}
+.line > div {
+	width: 70%;
+}
